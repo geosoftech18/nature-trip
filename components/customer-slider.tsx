@@ -107,7 +107,7 @@ export default function CustomerSlider({
 
   return (
     <div
-      className="w-full bg-gradient-to-br from-[#17470a] via-[#17470a]/80 to-[#17470a] py-12 lg:py-20"
+      className="w-full bg-gradient-to-br from-primary via-green-600 to-green-700 py-12 lg:py-20"
       onMouseEnter={() => setIsAutoPlay(false)}
       onMouseLeave={() => setIsAutoPlay(true)}
     >

@@ -205,7 +205,7 @@ export default function Home() {
       region: 'Asia',
       tags: ['International', 'Luxury Escape'],
       categories: ['relax', 'honeymoon'],
-      image: 'https://images.unsplash.com/photo-1537996941826-4c4ea7161dd9?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=800&h=600&fit=crop&auto=format',
       description: 'Designed for slow mornings, rich culture, and unforgettable evenings.',
     },
     {
@@ -216,7 +216,7 @@ export default function Home() {
       region: 'India',
       tags: ['Signature', 'Cultural'],
       categories: ['adventure', 'family'],
-      image: 'https://images.unsplash.com/photo-1516399154795-f1201a62b3f3?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1582979512210-99b6a53386f4?w=800&h=600&fit=crop&auto=format',
       description: 'Journey through palaces, traditions, and the soul of India.',
     },
     {
@@ -227,7 +227,7 @@ export default function Home() {
       region: 'Europe',
       tags: ['International', 'Premium'],
       categories: ['adventure', 'international'],
-      image: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800&h=600&fit=crop&auto=format',
       description: 'Iconic cities, timeless culture, and moments that define wanderlust.',
     },
     {
@@ -238,7 +238,7 @@ export default function Home() {
       region: 'Asia',
       tags: ['Luxury Escape', 'Honeymoon'],
       categories: ['relax', 'honeymoon'],
-      image: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=600&fit=crop&auto=format',
       description: 'Private islands, crystal waters, and intimate moments await.',
     },
     {
@@ -249,7 +249,7 @@ export default function Home() {
       region: 'Europe',
       tags: ['International', 'Adventure'],
       categories: ['adventure', 'family'],
-      image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop&auto=format',
       description: 'Mountains, valleys, and the pure essence of Alpine beauty.',
     },
     {
@@ -260,7 +260,7 @@ export default function Home() {
       region: 'Asia',
       tags: ['Signature', 'Family Favorite'],
       categories: ['family', 'international'],
-      image: 'https://images.unsplash.com/photo-1524631049281-5f3ebf74ba72?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop&auto=format',
       description: 'From ancient temples to neon cities—a complete journey through Japan.',
     },
   ];
@@ -401,7 +401,7 @@ export default function Home() {
             >
               {/* Primary CTA */}
               <button
-                className="px-8 py-3.5 rounded-full  bg-gradient-to-r from-[#104401] to-[#155B02]  text-white font-semibold hover:bg-[#155B02] transition-all duration-300 hover:shadow-2xl hover:shadow-[#155B02]/30 group"  
+                className="px-8 py-3.5 rounded-full  bg-gradient-to-br from-primary via-green-700 to-green-800  text-white font-semibold hover:bg-[#155B02] transition-all duration-300 hover:shadow-2xl hover:shadow-[#155B02]/30 group"  
                 style={{ fontFamily: 'var(--font-inter)' }}
               >
                 <span className="flex items-center gap-2">
@@ -1098,7 +1098,7 @@ export default function Home() {
         {/* Multi-Layered Animated Gradient Background */}
         <div className="absolute inset-0 z-0">
           {/* Base Gradient - Midnight Blue to Charcoal to Ivory */}
-          <div className="absolute inset-0 bg-gradient-to-br from-[#17470a] via-[#155B02] to-[#17470a]" />
+          <div className="absolute inset-0 bg-gradient-to-br from-primary via-green-600 to-green-700" />
 
           {/* Accent Gradient Layer - Animated (Champagne Gold) */}
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-green-100/8 to-transparent animate-gradient opacity-80" />
